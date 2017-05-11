@@ -1,0 +1,8 @@
+---
+:name: "ansible_tower"
+:upstream: "git@github.com:ManageIQ/manageiq.git"
+:upstream_branch: "master"
+:extractions:
+  - "app/models/manageiq/providers/ansible_tower"
+  - "spec/models/manageiq/providers/ansible_tower"
+:destination: "~/RedHat/provider_gems/gem_extraction/providers/manageiq-providers-ansible_tower"

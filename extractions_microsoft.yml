@@ -1,0 +1,8 @@
+---
+:name: "microsoft"
+:upstream: "git@github.com:ManageIQ/manageiq.git"
+:upstream_branch: "master"
+:extractions:
+  - "app/models/manageiq/providers/microsoft"
+  - "spec/models/manageiq/providers/microsoft"
+:destination: "~/RedHat/provider_gems/gem_extraction/providers/manageiq-providers-microsoft"
