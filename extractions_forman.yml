@@ -1,0 +1,8 @@
+---
+:name: "foreman"
+:upstream: "git@github.com:ManageIQ/manageiq.git"
+:upstream_branch: "master"
+:extractions:
+  - "app/models/manageiq/providers/foreman"
+  - "spec/models/manageiq/providers/foreman"
+:destination: "~/RedHat/provider_gems/gem_extraction/extractions/providers/manageiq-providers-foreman"
