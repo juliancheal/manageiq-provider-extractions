@@ -5,4 +5,5 @@
 :extractions:
   - "app/models/manageiq/providers/ansible_tower"
   - "spec/models/manageiq/providers/ansible_tower"
+  - "spec/support/ansible_shared"
 :destination: "~/RedHat/provider_gems/gem_extraction/providers/manageiq-providers-ansible_tower"
