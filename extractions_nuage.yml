@@ -1,0 +1,7 @@
+---
+:name: "nuage"
+:upstream: "git@github.com:ManageIQ/manageiq.git"
+:upstream_branch: "master"
+:extractions:
+  - "app/models/manageiq/providers/nuage"
+:destination: "~/RedHat/provider_gems/gem_extraction/providers/manageiq-providers-nuage"

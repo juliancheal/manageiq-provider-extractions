@@ -1,0 +1,13 @@
+---
+:name: "embedded_ansible"
+:upstream: "git@github.com:ManageIQ/manageiq.git"
+:upstream_branch: "master"
+:extractions:
+  - "app/models/manageiq/providers/embedded_ansible"
+  - "app/models/embedded_ansible_worker/"
+  - "app/models/embedded_ansible_worker.rb"
+  - "lib/embedded_ansible.rb"
+  - "spec/models/manageiq/providers/embedded_ansible"
+  - "spec/models/embedded_ansible_worker/"
+  - "spec/models/embedded_ansible_worker_spec.rb"
+:destination: "~/RedHat/provider_gems/gem_extraction/providers/manageiq-providers-embedded_ansible"
